@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Maria Lorenzo | Home</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<meta name="description" content="Maria Lorenzo photography Website">
+<meta name="keywords" content="Photography, photography, Maria Lorenzo, maria lorenzo, maria lorenzo photography">
+<meta name="author" content="João Maria Janeiro">
+  <link rel="stylesheet" href="animate.min.css">
+<style>
+html {
+  overflow-y: scroll;
+}
+ .pull-left h3{
+  margin-top: 10px;
+  text-decoration: none;
+  color: #000;
+  padding-left: 10px;
+}
+body, html{
+  height:100%;
+  margin:0;
+  font-size:16px;
+  font-family:"Lato", sans-serif;
+  font-weight:400;
+  line-height:1.8em;
+  color:#666;
+}
+
+.carousel-control.left, .carousel-control.right{
+    background: none !important;
+    filter: progid:none !important;>
+}
+#button{
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+}
+.pull-left img{
+  width: 220px;
+  padding-top: 10px;
+}
+.nav a{
+  font-size: 13px;
+}
+.btn{
+  margin-left: 160px;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+}
+.btn:hover{
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+}
+.item img{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+</head>
+<body>
+  <div class="container">
+    <nav class="navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+
+        <div class="navbar-header">
+
+          <button type="button" id="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+
+
+            <span class="sr-only"></span>
+
+            <!-- Draws 3 bars in navbar button when in small mode -->
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+        <a class="pull-left" href="index_1.html"><img src="./img/MARIA LORENZO LOGO.png"></a>
+        </div>
+
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index_1.html">HOME<span class="sr-only">(current)</span></a></li>
+            <li><a href="about.html">ABOUT<span class="sr-only"></span></a></li>
+            <li><a href="photogallery.html">PHOTO LIBRARY<span class="sr-only"></span></a></li>
+            <li><a href="video.html">VIDEO<span class="sr-only"></span></a></li>
+            <li><a href="contacts.html">CONTACTS<span class="sr-only"></span></a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    </div>
+    <br>
+    <br>
+    <div class="container">
+
+      <div class="col-md-12">
+
+        <div id="carousel-example-generic" class="carousel slide" data-interval="false">
+
+          <!-- Indicators -->
+
+          <ol class="carousel-indicators">
+
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+
+
+          </ol>
+
+
+          <!-- Wrapper for slides -->
+
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <a href="grid.html"><img src="./img/gallery-c/3.jpg" class="img-responsive" id="test"></a>
+              <div class="carousel-caption">
+              </div>
+            </div>
+            <div class="item">
+              <img src="./img/gallery-c/17.jpg" class="img-responsive">
+              <div class="carousel-caption">
+              </div>
+            </div>
+            <div class="item">
+              <img src="./img/gallery-c/8.jpg" class="img-responsive">
+              <div class="carousel-caption">
+              </div>
+            </div>
+            <div class="item">
+              <img src="./img/gallery-c/9.jpg" class="img-responsive">
+              <div class="carousel-caption">
+              </div>
+            </div>
+            <div class="item">
+              <img src="./img/gallery-c/10.jpg" class="img-responsive">
+              <div class="carousel-caption">
+              </div>
+            </div>
+
+
+
+
+          </div>
+
+
+
+          <!-- Controls -->
+
+          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <a href="grid.html"><button type="button" name="button" class="btn btn-default btn-lg">GALLERY</button></a>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/touchswipe.min.js"></script>
+<script>
+$(document).ready(function() {
+
+ //Enable swiping...
+ $(".carousel-inner").swipe( {
+   //Generic swipe handler for all directions
+   swipeLeft:function(event, direction, distance, duration, fingerCount) {
+     $(this).parent().carousel('next');
+   },
+   swipeRight: function() {
+     $(this).parent().carousel('prev');
+   },
+   //Default is 75px, set to 0 for demo so any distance triggers swipe
+   threshold:0
+ });
+});
+</script>
+
+</body>
+</html>
